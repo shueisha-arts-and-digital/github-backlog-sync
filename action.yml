@@ -40,7 +40,7 @@ runs:
     - name: Checkout
       uses: actions/checkout@v4
       with:
-        repository: 'pj8/github-backlog-sync'
+        repository: 'shueisha-arts-and-digital/github-backlog-sync'
         ref: 'ubuntu-latest-node'
 
     - name: Install dependencies

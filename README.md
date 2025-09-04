@@ -27,7 +27,7 @@ jobs:
 
     steps:
     - name: GitHub-Backlog Sync Action
-      uses: pj8/github-backlog-sync@v1.2.11
+      uses: shueisha-arts-and-digital/github-backlog-sync@v1.2.11
       timeout-minutes: 1
       with:
         BACKLOG_API_KEY: ${{ secrets.BACKLOG_API_KEY }}
